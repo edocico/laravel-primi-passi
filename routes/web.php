@@ -33,5 +33,14 @@ Route::get('/chi-sono', function () {
     return view('chi-sono');
 });
 
+Route::get('/contatti', function () {
+
+    $data = [
+        "contacts" => ["34493277643", "fake.email@fake.com"]
+    ];
+
+    return view('contatti', $data);
+});
+
 
  

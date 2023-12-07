@@ -13,6 +13,7 @@
         <ul>
             <li><a href="{{ url('chi-sono') }}">
                 About me</a></li>
+            <li><a href="{{ url('contatti') }}">Contatti</a></li>
         </ul>
     </header>
     <main>
