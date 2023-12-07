@@ -15,11 +15,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    $data = [
+    $presentazione = [
         "nome" => "Edoardo",
         "cognome"=>"Cicognani",
         "study"=>"Web Developer"
     ];
 
-    return view('home',$data);
+    $elenco = [
+        "items" => ["HTML", "CSS", "Sass", "Javascript", "VueJS", "PHP" , "Laravel"]
+        
+    ];
+
+    return view('home',$presentazione,$elenco);
 });

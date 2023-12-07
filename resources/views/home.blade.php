@@ -11,6 +11,14 @@
         <h1>Hello World Laravel!</h1>
         <p>Buongiorno a tutti sono {{ $nome }} {{ $cognome }} e sto studiando per diventare {{ $study }}</p>
     </header>
+    <main>
+        <p>In Boolean ho studiato:</p>
+        <ul>
+            @foreach ($items as $item)
+            <li>{{ $item }}</li>
+            @endforeach
+        </ul>
+    </main>
 
 </body>
 </html>
