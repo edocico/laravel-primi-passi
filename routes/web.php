@@ -28,3 +28,10 @@ Route::get('/', function () {
 
     return view('home',$presentazione,$elenco);
 });
+
+Route::get('/chi-sono', function () {
+    return view('chi-sono');
+});
+
+
+ 
