@@ -9,6 +9,7 @@
     
     <header>
         <h1>Hello World Laravel!</h1>
+        <p>Buongiorno a tutti sono {{ $nome }} {{ $cognome }} e sto studiando per diventare {{ $study }}</p>
     </header>
 
 </body>
